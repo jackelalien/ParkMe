@@ -1,0 +1,33 @@
+{"beacons": [
+            {          
+				"name": "BLE-A",     
+                "identifier": "3a40e95bcc67bb780032e19c66737304",
+				"uuid": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+				"major": 28978,
+				"minor": 17205,
+				"coordinates": "-92.05508710031391, 30.1969608003361, 0",
+				"x": 0,
+				"y": 0
+            },
+            { 
+				"name": "BLE-B",                 
+                "identifier": "1e76a5a8d8ba436b07ff48fba957bd1f",
+				"uuid": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+				"major": 62391,
+				"minor": 54725,
+				"coordinates": "30.197002669533, -92.05502822260235, 0",
+				"x": 0,
+				"y": 0
+            },
+			{ 
+				"name": "BLE-C",                 
+                "identifier": "2a8339b8b59a91690b4710cf0a08722f",
+				"uuid": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+				"major": 6884,
+				"minor": 65205,
+				"coordinates": "30.197006802779, -92.05509129287229, 38",
+				"x": 0,
+				"y": 0
+            }
+			
+]}

@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Parking</ion-title>
+      
+      <!-- [(ngModel)]="autocomplete.input" (ionInput)="updateSearchResults()" -->
+      
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+    
+    <div class="list">
+      <select name="destSelect" ng-model="pointB.tag" rquired ng-options="x.tag as x.name for x in destPoints" ng-change="drawPath()">
+      </select>
+    </div>
+
+    <div id="mapFloor">
+      <!--<img class="img" src="" ng-src="{{image}}" style="width: 100%"> -->
+      <svg id="canvas" height="320" width="400">
+        <defs>
+            <marker id="arrow" markerWidth="10" markerHeight="10" refx="0" refy="2" orient="auto" markerUnits="strokeWidth">
+                <path d="M0,0 L0,4 L6,2 z" fill="#00f" />
+              </marker>
+              <marker id="CircleMark" markerWidth="8" markerHeight="8" refX="4" refY="4" markerUnits="userSpaceOnUse">
+                <circle cx="4" cy="4" r="6" fill="deeppink"/>
+              </marker>
+        </defs>
+
+      </svg>
+      
+    </div>
+
+    <button ion-button full id="button-1" (click)="clearPath()">Clear Path</button>
+    <button ion-button full id="button-1" (click)="showBeacons()"></button>
+    <button ion-button full color="secondary">Add Beacon</button>
+    
+  
+   
+  </ion-content>

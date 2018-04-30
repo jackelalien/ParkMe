@@ -1,6 +1,6 @@
 {
   "name": "ParkMe",
-  "app_id": "",
+  "app_id": "e60f6521",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
