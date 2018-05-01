@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Geolocation } from '@ionic-native/geolocation';
 import { Observable } from 'rxjs/Observable';
 
-import * as math from 'mathjs';
+//import * as math from 'mathjs';
 import * as mapdata from '../assets/data/mapdata.json';
 
 declare let google;

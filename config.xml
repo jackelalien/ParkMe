@@ -85,7 +85,6 @@
         <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.156246175378-t0382k2moo7arfiv7ndoegugtnt4sbti" />
     </plugin>
     <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
-    <engine name="android" spec="~7.0.0" />
     <allow-navigation href="http://172.17.0.146:8100" />
     <plugin name="cordova-plugin-ble" spec="^2.0.1" />
     <plugin name="cordova-plugin-device-motion" spec="^2.0.1" />
@@ -95,4 +94,5 @@
     <plugin name="cordova-plugin-ble-central" spec="^1.1.4">
         <variable name="BLUETOOTH_USAGE_DESCRIPTION" value=" " />
     </plugin>
+    <engine name="android" spec="~7.0.0" />
 </widget>

@@ -62,6 +62,8 @@ import { RoutingService } from '../services/routingservice';
   providers: [
     StatusBar,
     SplashScreen,
+    DeviceMotion,
+    DeviceOrientation,
     Geolocation,
     IBeacon,
     Keyboard,
